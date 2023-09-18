@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성과속성값</title>
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        span {display: inline-block;}
+        body {
+            font-size: 20px;
+        }
+        li {list-style: none;}
+        ul {
+            max-width: 1280px;
+            margin: 100px auto; 
+            border: 1px solid #ccc;
+        }
+        ul li {
+            border-bottom: 1px solid #ccc;
+
+            display: flex;  
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        ul li:last-child {
+            border-bottom: 0;
+        }
+        
+        ul li p { 
+            background-color: #eee;   
+            width: 25%;  
+            text-align: center;  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }  
+        ul li strong { 
+            padding: 12px 10px;
+            box-sizing: border-box; 
+            width: 75%; 
+            letter-spacing: 2px;
+            background-color: #fff; 
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><p>글자크기</p><strong>font-size</strong></li>
+        <li><p>글자색상</p><strong>color</strong></li>
+        <li><p>자간간격</p><strong>letter-spacing</strong></li>
+        <li><p>폰트스타일1</p><strong>https://noonnu.cc/</strong></li>
+        <li><p>폰트스타일2</p><strong>https://fonts.google.com/?subset=korean</strong></li>
+        <li><p>글자수평정렬</p><strong>text-align:left / text-align:center / text-align:right</strong></li>
+        
+        <li><p>외부여백</p><strong>margin / margin-top / margin-left / margin-right / margin-bottom</strong></li>
+        <li><p>내부여백</p><strong>padding / padding-top / padding-left / padding-right / padding-bottom</strong></li>
+
+        <li><p>배경이미지</p><strong>background:url('../images/파일명.확장자명') center center / cover no-repeat</strong></li>
+        <li><p>배경이미지 고정</p><strong>background-attachment: fixed</strong></li>
+        <li><p>배경컬러</p><strong>background-color</strong></li>
+        <li><p>그라데이션1</p><strong>https://webgradients.com/</strong></li>
+        <li><p>그라데이션2</p><strong>https://cssgradient.io/</strong></li>
+
+        <li><p>컨텐츠가운데배치</p><strong>margin:0 auto</strong></li>
+        <li><p>컨텐츠가로로정렬</p><strong>display:flex</strong></li>
+        <li><p>플렉스관련</p><strong>[참고]플렉스.html, 플렉스레이아웃.html</strong></li>
+
+    
+        <li><p>그림자</p><strong>box-shadow:x축px y축px 블러 색상</strong></li>
+        <li><p>테두리</p><strong>border: 두께px 스타일 색상</strong></li>
+        <li><p>모서리곡선</p><strong>border-radius</strong></li>
+        <li><p>테두리여백포함값설정</p><strong>box-sizing:border-box</strong></li>
+
+
+        <li><p>img태그로 비율맞추기</p><strong>width:100%; height: 100%; object-fit:cover;</strong></li>
+        <li><p>이미지위로글자올리기<br />(부모역할)</p><strong>position:relative</strong></li>
+        <li><p>이미지위로글자올리기<br />(움직일요소)</p><strong>position:absolute; <br />top / left / right / bottom 중 위치 설정</strong></li>
+        <li><p>header고정(헤더)</p><strong>position:fixed; width: 00px; z-index:9;</strong></li>
+
+        <li><p>컨텐츠디자인참고</p><strong>플렉스레이아웃.html<br />웹폰트.html<br />배경이미지레이아웃.html</strong></li>
+
+    </ul>
+</body>
+</html>
